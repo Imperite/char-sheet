@@ -1,0 +1,44 @@
+.dice,
+.Add {
+    margin-right: 0;
+    padding: 2px;
+    transition: padding .2s;
+}
+
+.dice:hover,
+.Add:hover {
+    padding: 5px;
+}
+
+p.modifier {
+    margin: auto 0;
+    text-align: right;
+    /* flex-grow: 1; */
+}
+
+p.value {
+    margin-left: 0;
+    text-align: left;
+    padding: 2px 2px 1px 2px;
+    border: .1rem solid black;
+    border-radius: 5px;
+    width: auto;
+    word-break: break-all;
+}
+
+ul {
+    list-style: none;
+}
+
+button,
+select {
+    background-color: inherit;
+    border-radius: 5px;
+    border: 1px black solid;
+    appearance: none;
+    text-align: center;
+}
+
+select:hover {
+    background-color: lightsteelblue;
+}
